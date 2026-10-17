@@ -1,0 +1,13 @@
+{
+  "hbc": "https://github.com/hbctraining/Intro-to-DGE.git",
+  "pseudobulk": "https://github.com/hbctraining/Pseudobulk-for-scRNAseq.git",
+  "seurat": "https://github.com/satijalab/seurat.git",
+  "scanpy": "https://github.com/scverse/scanpy-tutorials.git",
+  "best-practices": "https://github.com/theislab/single-cell-best-practices.git",
+  "squidpy": "https://github.com/scverse/squidpy-tutorials.git",
+  "spatialdata": "https://github.com/scverse/spatialdata-tutorials.git",
+  "metabonaut": "https://github.com/rformassspectrometry/Metabonaut.git",
+  "metaboanalyst": "https://github.com/xia-lab/MetaboAnalystR.git",
+  "clusterprofiler": "https://github.com/YuLab-SMU/clusterProfiler.git",
+  "metafor": "https://github.com/wviechtb/metafor.git"
+}

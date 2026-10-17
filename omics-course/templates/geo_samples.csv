@@ -1,0 +1,3 @@
+sample_id,donor_id,condition,batch,source_evidence
+REPLACE_GSM_control,REPLACE_donor_1,control,batch1,REPLACE_protocol_or_metadata_reference
+REPLACE_GSM_treated,REPLACE_donor_1,treated,batch1,REPLACE_protocol_or_metadata_reference

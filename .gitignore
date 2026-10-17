@@ -1,0 +1,31 @@
+# Local credentials, tools and caches
+.env
+.env.*
+*.pem
+*.key
+.agents/
+.codex/
+.aws/
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+# Preserve only small, documented legacy input matrices
+/data/*
+!/data/counts/
+# Downloaded upstream projects and generated analysis outputs
+/tutorials/
+/results/
+/omics-course/data/
+/omics-course/results/*
+!/omics-course/results/README.md
+/omics-course/resources/upstream/
+/omics-course/resources/upstream_receipts.json
+/omics-course/env/R-library/
+/omics-course/env/*venv/
+/omics-course/env/*-session.txt
+/omics-course/env/*-resolved.txt
+# Local publication artifacts
+/dist/

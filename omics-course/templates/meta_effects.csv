@@ -1,0 +1,2 @@
+feature_id,study_id,cohort_id,effect,se,effect_scale,contrast,organism,independence_reviewed
+REPLACE_GENE,REPLACE_GSE,REPLACE_INDEPENDENT_COHORT,,,log2FC,treated_vs_control,Homo_sapiens,FALSE

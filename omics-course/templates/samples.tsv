@@ -1,0 +1,3 @@
+sample_id	donor_id	condition	batch	assay	input_file	paired_unit	qc_role	injection_order
+EXAMPLE_control_01	EXAMPLE_donor_01	control	batch1	bulk_rna	REPLACE_WITH_REAL_PATH	EXAMPLE_donor_01	biological	NA
+EXAMPLE_treated_01	EXAMPLE_donor_01	treated	batch1	bulk_rna	REPLACE_WITH_REAL_PATH	EXAMPLE_donor_01	biological	NA

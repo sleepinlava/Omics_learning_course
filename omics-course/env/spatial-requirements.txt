@@ -1,0 +1,5 @@
+# Compatibility targets, not a resolved lockfile; tested status is in VALIDATION.md.
+# Python 3.11/3.12; record the actual resolution with pip freeze.
+scanpy>=1.11,<1.12
+squidpy>=1.8,<1.9
+matplotlib>=3.8,<4

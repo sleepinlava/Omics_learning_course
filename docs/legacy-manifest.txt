@@ -1,0 +1,160 @@
+# RNA-seq 学习工作区 文件清单
+# 生成时间: 2026-09-16 15:18:33
+# 总计: 591M
+
+## 脚本
+  scripts/00_download.sh
+  scripts/01_setup_R.R
+  scripts/02_DE_DESeq2_airway.R
+  scripts/03_DE_edgeR_limma_pasilla.R
+  scripts/04_enrichment.R
+  scripts/05_raw_pipeline.sh
+  scripts/06_install_tools.sh
+  scripts/07_run_nfcore_rnaseq.sh
+
+## 数据 (data/)
+     2596435  data/airway/GSE52778_All_Sample_FPKM_Matrix.txt.gz
+      850055  data/airway/GSE52778_Dex_vs_Untreated_gene_exp.diff.gz
+         941  data/counts/airway_coldata.csv
+     2415056  data/counts/airway_counts.csv
+      498373  data/counts/pasilla_gene_counts.tsv
+         527  data/counts/pasilla_sample_annotation.csv
+        1064  data/raw_fastq/nf-core-testdata/LICENSE
+       13011  data/raw_fastq/nf-core-testdata/README.md
+         235  data/raw_fastq/nf-core-testdata/reference/bbsplit_fasta_list.txt
+       47627  data/raw_fastq/nf-core-testdata/reference/bowtie2_rrna_index.tar.gz
+      183609  data/raw_fastq/nf-core-testdata/reference/chr22_23800000-23980000.fa
+       30373  data/raw_fastq/nf-core-testdata/reference/GCA_009858895.3_ASM985889v3_genomic.200409.fna
+      108320  data/raw_fastq/nf-core-testdata/reference/genes.gff
+        8572  data/raw_fastq/nf-core-testdata/reference/genes.gff.gz
+      204286  data/raw_fastq/nf-core-testdata/reference/genes.gtf
+       10452  data/raw_fastq/nf-core-testdata/reference/genes.gtf.gz
+      204459  data/raw_fastq/nf-core-testdata/reference/genes_with_empty_tid.gtf
+       10466  data/raw_fastq/nf-core-testdata/reference/genes_with_empty_tid.gtf.gz
+      234058  data/raw_fastq/nf-core-testdata/reference/genome.fa
+       71440  data/raw_fastq/nf-core-testdata/reference/genome.fa.gz
+      234058  data/raw_fastq/nf-core-testdata/reference/genome.fasta
+       71442  data/raw_fastq/nf-core-testdata/reference/genome.fasta.gz
+         757  data/raw_fastq/nf-core-testdata/reference/gfp.fa
+         306  data/raw_fastq/nf-core-testdata/reference/gfp.fa.gz
+      702499  data/raw_fastq/nf-core-testdata/reference/hisat2.tar.gz
+         100  data/raw_fastq/nf-core-testdata/reference/ngscheckmate.bed
+       16240  data/raw_fastq/nf-core-testdata/reference/prokaryotic/SL1344_sub.fasta
+        7940  data/raw_fastq/nf-core-testdata/reference/prokaryotic/SL1344_sub.gff3
+      780222  data/raw_fastq/nf-core-testdata/reference/salmon.tar.gz
+      155606  data/raw_fastq/nf-core-testdata/reference/transcriptome.fasta
+       47832  data/raw_fastq/nf-core-testdata/reference/transcriptome.fasta.gz
+      154846  data/raw_fastq/nf-core-testdata/reference/transcriptome_match_gtf.fa
+       47609  data/raw_fastq/nf-core-testdata/reference/transcriptome_match_gtf.fa.gz
+         486  data/raw_fastq/nf-core-testdata/samplesheet/prokaryotic/samplesheet_test.csv
+          26  data/raw_fastq/nf-core-testdata/samplesheet/public_database_ids.txt
+        1329  data/raw_fastq/nf-core-testdata/samplesheet/samplesheet.csv
+        1271  data/raw_fastq/nf-core-testdata/samplesheet/samplesheet_full.csv
+         152  data/raw_fastq/nf-core-testdata/samplesheet/samplesheet_micro.csv
+        1329  data/raw_fastq/nf-core-testdata/samplesheet/samplesheet_minimal.csv
+        1341  data/raw_fastq/nf-core-testdata/samplesheet/samplesheet_test.csv
+        1142  data/raw_fastq/nf-core-testdata/samplesheet/v3.10/samplesheet_full_aws.csv
+         934  data/raw_fastq/nf-core-testdata/samplesheet/v3.10/samplesheet_full_azure.csv
+        1142  data/raw_fastq/nf-core-testdata/samplesheet/v3.10/samplesheet_full.csv
+        1142  data/raw_fastq/nf-core-testdata/samplesheet/v3.10/samplesheet_full_gcp.csv
+        1335  data/raw_fastq/nf-core-testdata/samplesheet/v3.10/samplesheet_test.csv
+        1336  data/raw_fastq/nf-core-testdata/samplesheet/v3.10/samplesheet_test_uncompressed.csv
+        3078  data/raw_fastq/nf-core-testdata/samplesheet/v3.10/samplesheet_test_with_bams.csv
+        3148  data/raw_fastq/nf-core-testdata/samplesheet/v3.10/samplesheet_test_with_rsem_bams.csv
+        1286  data/raw_fastq/nf-core-testdata/samplesheet/v3.1/samplesheet_full.csv
+        1341  data/raw_fastq/nf-core-testdata/samplesheet/v3.1/samplesheet_test.csv
+        1286  data/raw_fastq/nf-core-testdata/samplesheet/v3.4/samplesheet_full.csv
+        1121  data/raw_fastq/nf-core-testdata/samplesheet/v3.4/samplesheet_test.csv
+        1697  data/raw_fastq/nf-core-testdata/testdata/deseq2qc/countFile.tsv
+         593  data/raw_fastq/nf-core-testdata/testdata/deseq2qc/deseq2_clustering_header.txt
+         507  data/raw_fastq/nf-core-testdata/testdata/deseq2qc/deseq2_pca_header.txt
+     2239317  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357070_1.fastq.gz
+     2232117  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357070_2.fastq.gz
+     2189243  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357071_1.fastq.gz
+     2183711  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357071_2.fastq.gz
+     2148269  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357072_1.fastq.gz
+     2167239  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357072_2.fastq.gz
+     2253497  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357073_1.fastq.gz
+     2282958  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357073_2.fastq.gz
+     2289662  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357074_1.fastq.gz
+     2271106  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357074_2.fastq.gz
+     2207238  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357075_1.fastq.gz
+     2199360  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357075_2.fastq.gz
+     2268588  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357076_1.fastq.gz
+     2250281  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357076_2.fastq.gz
+     2193777  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357077_1.fastq.gz
+     2194219  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357077_2.fastq.gz
+     2208999  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357078_1.fastq.gz
+     2221027  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357078_2.fastq.gz
+     2264230  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357079_1.fastq.gz
+     2219843  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357079_2.fastq.gz
+     2178518  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357080_1.fastq.gz
+     2160683  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357080_2.fastq.gz
+     2170797  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357081_1.fastq.gz
+     2180344  data/raw_fastq/nf-core-testdata/testdata/GSE110004/SRR6357081_2.fastq.gz
+         439  data/raw_fastq/nf-core-testdata/testdata/multiqc_custom_biotype/biotypes_header.txt
+         628  data/raw_fastq/nf-core-testdata/testdata/multiqc_custom_biotype/test.featureCounts.txt
+      131840  data/raw_fastq/nf-core-testdata/testdata/prokaryotic/sample_R1_1.fq.gz
+      131497  data/raw_fastq/nf-core-testdata/testdata/prokaryotic/sample_R1_2.fq.gz
+      134685  data/raw_fastq/nf-core-testdata/testdata/prokaryotic/sample_R2_1.fq.gz
+      133936  data/raw_fastq/nf-core-testdata/testdata/prokaryotic/sample_R2_2.fq.gz
+         375  data/raw_fastq/nf-core-testdata/testdata/rsem_merge_counts/genes/RAP1_IAA_30M_REP1.genes.results
+         373  data/raw_fastq/nf-core-testdata/testdata/rsem_merge_counts/genes/RAP1_UNINDUCED_REP1.genes.results
+         375  data/raw_fastq/nf-core-testdata/testdata/rsem_merge_counts/genes/RAP1_UNINDUCED_REP2.genes.results
+         399  data/raw_fastq/nf-core-testdata/testdata/rsem_merge_counts/isoforms/RAP1_IAA_30M_REP1.isoforms.results
+         395  data/raw_fastq/nf-core-testdata/testdata/rsem_merge_counts/isoforms/RAP1_UNINDUCED_REP1.isoforms.results
+         397  data/raw_fastq/nf-core-testdata/testdata/rsem_merge_counts/isoforms/RAP1_UNINDUCED_REP2.isoforms.results
+       41194  data/raw_fastq/nf-core-testdata/testdata/SRR4238351_subsamp.fastq.gz
+       80115  data/raw_fastq/nf-core-testdata/testdata/SRR4238355_subsamp.fastq.gz
+       73467  data/raw_fastq/nf-core-testdata/testdata/SRR4238359_subsamp.fastq.gz
+       49310  data/raw_fastq/nf-core-testdata/testdata/SRR4238379_subsamp.fastq.gz
+
+## 教程 (tutorials/) 顶层文件
+  tutorials/01_rnaseqGene-workflow-Love2016.html
+  tutorials/02_limma-RNAseq123-workflow.html
+  tutorials/03_DESeq2-vignette.html
+  tutorials/04_edgeR-UsersGuide.pdf
+  tutorials/05_limma-UsersGuide.pdf
+  tutorials/06_apeglm-shrinkage.html
+  tutorials/07_OSCA-single-cell-book.html
+  tutorials/08_csawBook-differential-analysis.html
+  tutorials/09_nf-core-rnaseq-docs.html
+  tutorials/10_galaxy-transcriptomics.html
+  tutorials/11_multiqc-docs.html
+  tutorials/12_fastqc-home.html
+  tutorials/combine-rnaseq-in-R
+  tutorials/conquer-DE-benchmark
+  tutorials/hbc-intro-to-dge
+  tutorials/hbc-intro-to-rnaseq
+  tutorials/monash-rnaseq-DE
+  tutorials/nf-core-rnaseq-pipeline
+
+## 教程仓库 (tutorials/*/)
+  combine-rnaseq-in-R: 364 个文件
+  conquer-DE-benchmark: 230 个文件
+  hbc-intro-to-dge: 230 个文件
+  hbc-intro-to-rnaseq: 201 个文件
+  monash-rnaseq-DE: 68 个文件
+  nf-core-rnaseq-pipeline: 858 个文件
+
+## 示例结果 (results/)
+  results/airway_DESeq2_all_genes.csv
+  results/airway_DESeq2_significant.csv
+  results/airway_MA_plot.png
+  results/airway_normalized_counts.csv
+  results/airway_PCA.png
+  results/airway_sample_distance_heatmap.png
+  results/airway_top40_heatmap.png
+  results/airway_volcano.png
+  results/enrichment_GO_BP_down.csv
+  results/enrichment_GO_BP_down.png
+  results/enrichment_GO_BP_up.csv
+  results/enrichment_GO_BP_up.png
+  results/pasilla_DESeq2_results.csv
+  results/pasilla_edgeR_results.csv
+  results/pasilla_limma_voom_results.csv
+  results/pasilla_logFC_edgeR_vs_DESeq2.png
+  results/pasilla_MDS.png
+  results/pasilla_method_logFC_correlation.csv
+  results/pasilla_top40_heatmap.png
+  results/pasilla_voom_meanvar.png

@@ -1,0 +1,2 @@
+study_id,geo_accession,publication,cohort_id,organism,tissue,platform,contrast,n_control,n_treated,paired,overlap_review,include,exclusion_reason
+REPLACE_STUDY,REPLACE_GSE,REPLACE_DOI,REPLACE_COHORT,Homo_sapiens,REPLACE,REPLACE,treated_vs_control,,,FALSE,NOT_REVIEWED,FALSE,
